@@ -121,7 +121,7 @@ hamburger-nav {
 }
 
 .hamburger-icon.open span:first-child {
-  transform: rotate(45deg) translate(10px 5px);
+  transform: rotate(45deg) translate(10px, 5px);
 }
 
 .hamburger-icon.open span:nth-child(2) {
@@ -129,7 +129,7 @@ hamburger-nav {
 }
 
 .hamburger-icon.open span:last-child {
-  transform: rotate(-45deg) translate(10px -5px);
+  transform: rotate(-45deg) translate(10px, -5px);
 }
 
 .hamburger-icon span:first-child {
