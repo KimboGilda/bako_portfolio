@@ -213,6 +213,13 @@ section {
   height: 1rem;
 }
 
+.icon-socials {
+  cursor: pointer;
+  height: 1rem;
+  width: 30px;
+  height: 30px;
+}
+
 /* BUTTONS */
 .btn-container {
   display: flex;
