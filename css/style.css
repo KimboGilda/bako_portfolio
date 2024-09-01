@@ -348,16 +348,16 @@ section {
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: space-between; /* Adjust to ensure alignment */
 }
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  width: 100%; /* Adjust this to ensure it adapts well */
+  justify-content: left;
+  align-items: center; /* This will align the icon and text vertically */
+  gap: 1rem;
 }
 
 article.icon {
