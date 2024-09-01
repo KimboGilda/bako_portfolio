@@ -349,14 +349,14 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   gap: 2.5rem;
-  justify-content: space-between; /* Adjust to ensure alignment */
+  justify-content: space-between;
 }
 
 article {
   display: flex;
-  width: 100%; /* Adjust this to ensure it adapts well */
+  width: 100%;
   justify-content: left;
-  align-items: center; /* This will align the icon and text vertically */
+  align-items: center;
   gap: 1rem;
 }
 
