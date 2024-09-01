@@ -373,14 +373,16 @@ article.icon {
 }
 
 .contact-info-upper-container {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(153, 153, 153);
   background: rgb(250, 250, 250);
-  margin: 2rem;
-  padding: 0.5rem;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  width: auto;
 }
 
 .contact-info-container {
