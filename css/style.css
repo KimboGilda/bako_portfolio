@@ -406,3 +406,31 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* PROJECTS SECTION */
+/* PROJECTS SECTION */
+.experience-details-container-projects {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Adds 1rem space between the two project containers */
+  flex-wrap: wrap; /* Ensures they wrap on smaller screens */
+}
+
+.details-container {
+  flex: 1;
+  max-width: 400px; /* Limits the size of each project container */
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-container {
+  margin-top: 1rem;
+}
